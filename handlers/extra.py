@@ -6,7 +6,7 @@ async def secret_word(message:types.Message):
     await message.reply("Да мой Господин 🙇")
 
 async def echo_and_ban(message:types.Message):
-    ban_words = ['bitch','damn','fack','дурак','хуй']
+    ban_words = ['bitch','damn','fack','дурак']
     # if message.text.lower() in ban_words:
     #     await bot.send_message(message.chat.id,
     #                            f'Ban for the word,User: {message.from_user.full_name}')
