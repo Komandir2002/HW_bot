@@ -18,6 +18,7 @@ async def help(message: types.Message):
                         "4.Команда /start Приветствует пользователя\n"
                         "5.Команда /help выводит список команда\n"
                         "5.Команда /vetka выводит веточные вопросы\n"
+                        "6.Команда /register_user регистрирует пользователя" 
                         "Note:Бот-Админ будь осторожен он может удалять сообщения")
 
 async def info(message:types.message):
